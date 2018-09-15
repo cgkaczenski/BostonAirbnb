@@ -12,13 +12,18 @@ Requires Python3
 
 First, ensure that you have the latest pip; older versions may have trouble with some dependencies:
 
-'''
+```
 pip3 install --upgrade pip
-Then install the Jupyter Notebook using:
-'''
-'''
+```
+Then install the required libraries:
+```
 pip3 install jupyter
-'''
+pip3 install numpy 
+pip3 install pandas
+pip3 install scipy
+pip3 install matplotlib
+pip3 install seaborn
+```
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -28,5 +33,4 @@ pip3 install jupyter
 ## Results<a name="results"></a>
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
 Give credit to Airbnb and Kaggle for the data.
